@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bona Nova', serif;
+    font-family: 'Merriweather', serif;
+}
+
+button {
+    width:6rem;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/irelia.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5px
+}
+
+.botao {
+    border-radius: 30rem;
+    
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    width: 100vw;
+}
+
+.container-text {
+    height:90vh;
+    width: 90vw;
+    background-color: rgba(59, 1, 1, 0.562);
+    border-radius: 1rem;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.container-text p {
+    margin:2rem;
+    font-family: 'Merriweather', serif;
+    font-size: 1.09rem;
+    line-height: 2.5rem;
+
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-position: 50% 75%;
+        text-align: justify;
+
+    }
+
+    .container-text p {
+        
+        line-height: 1.5rem;
+    }
+    
+}
