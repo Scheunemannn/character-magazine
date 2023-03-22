@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Merriweather:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <header>
-        <nav class="nav-bar">
-            <button onclick="diminui()" id="botaodiminui" class="btn btn-danger">Previous</button>
-            <h1>Mia</h1>
-            <button onclick="aumenta()" id="botaoaumenta" class="btn btn-danger">Next</button>
-        </nav>
-    </header>
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  
     <article>
-        <div class="main-container">
-            <div class="container-text">
-                <p id="texto">Mia nasceu no sul do continente, em uma vila chamada Bombinhas, localizada em uma península protegida por uma cadeia montanhosa que dificultava o acesso ao local. Por conta disso, o povo de Bombinhas desenvolveu uma cultura única. <br> <br> Em um dia de tempestade, a vila foi atacada por invasores, que destruiram e saquearam tudo. Alguns moradores conseguiram escapar por uma antiga passagem secreta através da montanha. Contudo, a maior parte do povo não conseguiu escapar a tempo.</p>
-            </div>
+      <div class="main-container">
+        <div class="container-text">
+          
+          <p id="texto">Mia nasceu no sul do continente, em uma vila chamada Bombinhas, localizada em uma península protegida por uma cadeia montanhosa que dificultava o acesso ao local. Por conta disso, o povo de Bombinhas desenvolveu uma cultura única. <br> <br> Em um dia de tempestade, a vila foi atacada por invasores, que destruiram e saquearam tudo. Alguns moradores conseguiram escapar por uma antiga passagem secreta através da montanha. Contudo, a maior parte do povo não conseguiu escapar a tempo. Após atravessarem a montanha, os refugiados chegaram viajaram por três dias até chegarem à cidade de Porto Belo, uma cidade com grandes muralhas e que os acolheu.</p>
+          <nav class="nav-bar">
+            <button onclick="diminui()" id="botaodiminui" class="btn btn-danger">
+              Previous
+            </button>
             
+            <button onclick="aumenta()" id="botaoaumenta" class="btn btn-danger">
+              Next
+            </button>
+          </nav>
         </div>
+        
+      </div>
     </article>
-
-</body>
-<script src="script.js"></script>
+    
+  </body>
+  <script src="script.js"></script>
 </html>
